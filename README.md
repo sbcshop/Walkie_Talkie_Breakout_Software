@@ -33,9 +33,10 @@ This github provides getting started instructions with Walkie-Talkie Breakout.
 ### Pinout
 <img src="https://github.com/sbcshop/Walkie_Talkie_Breakout_Software/blob/main/images/walkie-talkie%20pinout.png">
 
-<!--
-- **<ins>Walkie-Talkie Module</ins>**: 
 
+- **<ins>Walkie-Talkie Module</ins>**: SA818S-CE walkie-talkie module with configurable frequency 400-480MHz and wattage between 0.5W and 1W to support license free usage in most of regions. 
+
+<!--
 - **<ins>Buttons<ins>** : Onboard there are four buttons,
    - **Power/Play/Pause** :
      - To power ON bluetooth module, play and pause songs when playing song on bluetooth mode.
@@ -83,9 +84,9 @@ This github provides getting started instructions with Walkie-Talkie Breakout.
 - For Details Checkout [Walkie-Talkie Manual]()
   
 ## Resources
-  * [Schematic]()
-  * [Hardware Files]()
-  * [Step File]()
+  * [Schematic](https://github.com/sbcshop/Walkie_Talkie_Breakout_Hardware/blob/main/Design%20Data/Walkie%20Talkie%20Breakout%20SCH.%20PDF.pdf)
+  * [Hardware Files](https://github.com/sbcshop/Walkie_Talkie_Breakout_Hardware)
+  * [Step File](https://github.com/sbcshop/Walkie_Talkie_Breakout_Hardware/blob/main/Mechanical%20Data/Walkie%20talkie%20Breakout%20.STEP)
   * [Walkie-Talkie Manual]()
 
 ## Related Products
