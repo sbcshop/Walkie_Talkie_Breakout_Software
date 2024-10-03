@@ -6,28 +6,28 @@ Say goodbye to communication challenges in areas with poor mobile signals like h
 This github provides getting started instructions with Walkie-Talkie Breakout.
 
 ### Features:
-- Walkie-Talkies can transmit audio up to 1km in open air.
-- Walkie-Talkie frequencies can be tuned between 400-480MHz with wattage settings (0.5W and 1W) to meet regulations for license-free usage in different regions.
-- Easily communicate with individuals at a distance via walkie-talkie utilizing the onboard microphone.
-- Push to Talk button for easy switch between Audio transmission and receive mode
-- Multiple audio output choices are provided, including a 2mm JST connector and a 2.54" 2 pin header for connecting 3W speakers.
-- There is also a 3.5mm Aux OUT to attach headphones for private listening
-- Type C interface for Power and AT command access for custom configuration.
-- UART breakout Walkie-talkie module is offered for interfacing with various microcontrollers which is an add-on for your existing projects.
+- Walkie-Talkies can transmit **audio up to 1km** in open air.
+- Walkie-Talkie frequencies can be tuned between **400-480MHz** with wattage settings **(0.5W and 1W)** to meet regulations for license-free usage in different regions.
+- Easily communicate with individuals at a distance via walkie-talkie utilizing the **onboard microphone**.
+- **Push to Talk button** for easy switch between Audio transmission and receive mode
+- Multiple audio output choices are provided, including a **2mm JST connector** and a **2.54" 2 pin header** for connecting 3W speakers.
+- There is also a **3.5mm Aux OUT** to attach headphones for private listening
+- **Type C interface** for Power and AT command access for custom configuration.
+- **UART breakout** Walkie-talkie module is offered for interfacing with various microcontrollers which is an add-on for your existing projects.
 
 
 ### Specification:
-- Supply Voltage: 5V Type C
-- Operating pin voltage: 3.3V
-- Battery Connector: 3.7V Lithium Ion
-- Audio Outputs:
+- **Supply Voltage:** 5V Type C
+- **Operating pin voltage:** 3.3V
+- **Battery Connector:** 3.7V Lithium Ion
+- **Audio Outputs:**
 	- 3W Speaker Output at 2.54” standard Header and 2mm JST 
 	- Standard 3.5mm TRS Headphone Jack
-- Walkie-Talkie Module :
-	- Frequency Range => 400 ~ 480MHz
-	- Communication Distance=> around 1 km in Open area
-	- Current Consumption => Rx around 60 mA and for Tx around 750 mA
-	- Operating Temperature Range: -20°C ~ +70 °C
+- **Walkie-Talkie Module :**
+	- **Frequency Range** => 400 ~ 480MHz
+	- **Communication Distance** => around 1 km in Open area
+	- **Current Consumption** => Rx around 60 mA and for Tx around 750 mA
+	- **Operating Temperature Range** => -20°C ~ +70 °C
 
 ## Getting Started Walkie Talkie Breakout
 ### Pinout
