@@ -44,7 +44,7 @@ This github provides getting started instructions with Walkie-Talkie Breakout.
 - **<ins>External Power</ins>**: Additional power source option as 2mm JST to connect 3.7V lithium ion battery for portable use. Onboard charging facility available.
 - **<ins>Audio Output</ins>**: Three options to listen incoming audio,
   - Use 2mm JST connector or 2.54" standard header to connect 2W or 3W speaker. Checkout below for compatible speaker options.
-  - For private listening use 3.5mm Audio Jack. Rquired 3 Pole TRS Aux pin connector for Compatibility.
+  - For private listening use 3.5mm Audio Jack. Required 3 Pole TRS Aux pin connector for Compatibility.
 
 #### Compatible speakers available Here:
 * [2W 6 Ohm Mono Enclosed Speaker](https://shop.sb-components.co.uk/products/2-watt-6-ohm-mini-portable-speaker-for-small-electronic-projects-2pcs)
@@ -52,9 +52,12 @@ This github provides getting started instructions with Walkie-Talkie Breakout.
   
 ## Configuration and Setting with UART via XCTU/Terminal Software
 - Connect Walkie-Talkie breakout to PC/laptop using Type C interface and make sure Jumper selection is placed as shown to access walkie-talkie module for configuration.
+
+  <img src="https://github.com/sbcshop/Walkie_Talkie_Breakout_Software/blob/main/images/jumper_selection.jpg" width="113" height="105">
+
 - Now you will see device listed with COM port you can checkout in device manager, If not listed meaning CH340 driver missing. To install driver check out [CH340 Driver Installation Manual Guide](https://github.com/sbcshop/NFC_Module/blob/main/documents/CH340%20Driver%20installation%20steps.pdf).
   
-  <img src="https://github.com/sbcshop/L76_GPS_Breakout_Software/blob/main/images/device_manager_comport.jpg" width="583" height="426">
+  <img src="https://github.com/sbcshop/Walkie_Talkie_Breakout_Software/blob/main/images/device_manager_com.jpg" width="583" height="426">
 
 - To monitor or configuration of device you can use any serial console terminal. For demo we have used XCTU which you can download from [official site here](https://hub.digi.com/support/products/xctu/).
 
@@ -62,9 +65,10 @@ This github provides getting started instructions with Walkie-Talkie Breakout.
 
   <img src="https://github.com/sbcshop/L76_GPS_Breakout_Software/blob/main/images/xctu_1.jpg" width="600" height="451">
 
-  <img src="https://github.com/sbcshop/Bluetooth_Breakout_Software/blob/main/images/xctu_device_setting.jpg" width="600" height="451">
+  <img src="https://github.com/sbcshop/Walkie_Talkie_Breakout_Software/blob/main/images/COMPORT_settings.jpg" width="600" height="451">
 
-- Some AT Command operations, you can directly send AT command or create packets for ease. When creating packets make sure to add 0D and 0A after every command in HEX. Below simple demo,
+- Maintain defualt setting as shown in above fig. related to baudrate, data bits, parity, stop bits and flow control. Click OK and then close connection.
+- We will create packet of AT commands to send. While creating packets make sure to add 0D and 0A after every command in HEX. Below simple demo,
 
   <!--
   <img src="https://github.com/sbcshop/Bluetooth_Breakout_Software/blob/main/images/at_command_packets.jpg" width="" height="">
