@@ -70,18 +70,18 @@ This github provides getting started instructions with Walkie-Talkie Breakout.
 - Maintain defualt setting as shown in above fig. related to baudrate, data bits, parity, stop bits and flow control. Click OK and then close connection.
 - We will create packet of AT commands to send. While creating packets make sure to add 0D and 0A after every command in HEX. Below simple demo,
 
-  <img src="https://github.com/sbcshop/Walkie_Talkie_Breakout_Software/blob/main/images/AT_cmd_ascii.jpg" width="" height="">
-  <img src="https://github.com/sbcshop/Walkie_Talkie_Breakout_Software/blob/main/images/AT_cmd_hex.jpg" width="" height="">
+  <img src="https://github.com/sbcshop/Walkie_Talkie_Breakout_Software/blob/main/images/AT_cmd_ascii.jpg" width="612" height="442">
+  <img src="https://github.com/sbcshop/Walkie_Talkie_Breakout_Software/blob/main/images/AT_cmd_hex.jpg" width="283" height="259">
 
 - Now select packet and click on send selected packet to view response,
 
-  <img src="https://github.com/sbcshop/Walkie_Talkie_Breakout_Software/blob/main/images/at_cmd_response.jpg" width="" height="">
+  <img src="https://github.com/sbcshop/Walkie_Talkie_Breakout_Software/blob/main/images/at_cmd_response.jpg" width="612" height="442">
 
 - Similarly you can add more AT Commands for easy configuration and save as XML for future reference,
 
-  <img src="https://github.com/sbcshop/Walkie_Talkie_Breakout_Software/blob/main/images/at_cmd_response2.jpg" width="" height="">
+  <img src="https://github.com/sbcshop/Walkie_Talkie_Breakout_Software/blob/main/images/at_cmd_response2.jpg" width="612" height="442">
 
-  <img src="https://github.com/sbcshop/Walkie_Talkie_Breakout_Software/blob/main/images/at_cmd_response_frequency.jpg" width="" height="">
+  <img src="https://github.com/sbcshop/Walkie_Talkie_Breakout_Software/blob/main/images/at_cmd_response_frequency.jpg" width="612" height="442">
   
 - To change default operating frequency you can use DMOSETGROUP command,
   - Format: AT+DMOSETGROUP=GBW, TFV, RFV, Tx_CXCSS, SQ, Rx_CXCSS
