@@ -102,13 +102,13 @@ This github provides getting started instructions with Walkie-Talkie Breakout.
     - The transmitting frequency and receiving frequency can be the same or different, but the set frequency must be 12.5K and 25K, Integer multiples.
     - different CXCSS values can be used for transmitting and receiving, 0000: no coding, 0001-0038: CTCSS
     
-- For Details Checkout [Walkie-Talkie Manual]()
+- For Details Checkout [Walkie-Talkie Manual](https://github.com/sbcshop/Walkie_Talkie_Breakout_Software/blob/main/documents/SA818S-U_Datasheet.pdf)
   
 ## Resources
   * [Schematic](https://github.com/sbcshop/Walkie_Talkie_Breakout_Hardware/blob/main/Design%20Data/Walkie%20Talkie%20Breakout%20SCH.%20PDF.pdf)
   * [Hardware Files](https://github.com/sbcshop/Walkie_Talkie_Breakout_Hardware)
   * [Step File](https://github.com/sbcshop/Walkie_Talkie_Breakout_Hardware/blob/main/Mechanical%20Data/Walkie%20talkie%20Breakout%20.STEP)
-  * [Walkie-Talkie Manual]()
+  * [Walkie-Talkie Datasheet](https://github.com/sbcshop/Walkie_Talkie_Breakout_Software/blob/main/documents/SA818S-U_Datasheet.pdf)
 
 ## Related Products
 
