@@ -70,13 +70,38 @@ This github provides getting started instructions with Walkie-Talkie Breakout.
 - Maintain defualt setting as shown in above fig. related to baudrate, data bits, parity, stop bits and flow control. Click OK and then close connection.
 - We will create packet of AT commands to send. While creating packets make sure to add 0D and 0A after every command in HEX. Below simple demo,
 
-  <!--
-  <img src="https://github.com/sbcshop/Bluetooth_Breakout_Software/blob/main/images/at_command_packets.jpg" width="" height="">
-  <img src="https://github.com/sbcshop/Bluetooth_Breakout_Software/blob/main/images/AT_cmd_send.jpg" width="580" height="408">
-  <img src="https://github.com/sbcshop/Bluetooth_Breakout_Software/blob/main/images/AT_name_changed.jpg" width="694" height="225">
-  <img src="https://github.com/sbcshop/Bluetooth_Breakout_Software/blob/main/images/modified_name.jpeg" width="324" height="387">
-  -->
+  <img src="https://github.com/sbcshop/Walkie_Talkie_Breakout_Software/blob/main/images/AT_cmd_ascii.jpg" width="" height="">
+  <img src="https://github.com/sbcshop/Walkie_Talkie_Breakout_Software/blob/main/images/AT_cmd_hex.jpg" width="" height="">
+
+- Now select packet and click on send selected packet to view response,
+
+  <img src="https://github.com/sbcshop/Walkie_Talkie_Breakout_Software/blob/main/images/at_cmd_response.jpg" width="" height="">
+
+- Similarly you can add more AT Commands for easy configuration and save as XML for future reference,
+
+  <img src="https://github.com/sbcshop/Walkie_Talkie_Breakout_Software/blob/main/images/at_cmd_response2.jpg" width="" height="">
+
+  <img src="https://github.com/sbcshop/Walkie_Talkie_Breakout_Software/blob/main/images/at_cmd_response_frequency.jpg" width="" height="">
   
+- To change default operating frequency you can use DMOSETGROUP command,
+  - Format: AT+DMOSETGROUP=GBW, TFV, RFV, Tx_CXCSS, SQ, Rx_CXCSS
+    ```
+    Example 1: AT+DMOSETGROUP=0,415.1250,415.1250,0012,4,0013
+    Example 2: AT+DMOSETGROUP=0,415.1250,415.1250,754N,4,445I
+    ```
+  - Parameter Description:
+    ```
+    GBW: bandwidth setting (0: 12.5K 1: 25K)
+    TFV: Transmit frequency value (134.0000M～174.0000M,400.0000M～470.0000M)
+    RFV: Receiving frequency value (134.0000M～174.0000M,400.0000M～470.0000M)
+    Tx_CXCSS: Transmit CXCSS value
+    SQ: Squelch level (0～8) (0: monitor mode, scan mode cannot be used 0)
+    Rx_CXCSS: Receive CXCSS value
+    ```
+    Note:
+    - The transmitting frequency and receiving frequency can be the same or different, but the set frequency must be 12.5K and 25K, Integer multiples.
+    - different CXCSS values can be used for transmitting and receiving, 0000: no coding, 0001-0038: CTCSS
+    
 - For Details Checkout [Walkie-Talkie Manual]()
   
 ## Resources
