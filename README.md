@@ -7,7 +7,7 @@ This github provides getting started instructions with Walkie-Talkie Breakout.
 
 ### Features:
 - Walkie-Talkies can transmit **audio up to 1km** in open air.
-- Walkie-Talkie frequencies can be tuned between **400-480MHz** with wattage settings **(0.5W and 1W)** to meet regulations for license-free usage in different regions.
+- Walkie-Talkie frequencies can be tuned between **400-470MHz** with wattage settings **(0.5W and 1W)** to meet regulations for license-free usage in different regions.
 - Easily communicate with individuals at a distance via walkie-talkie utilizing the **onboard microphone**.
 - **Push to Talk button** for easy switch between Audio transmission and receive mode
 - Multiple audio output choices are provided, including a **2mm JST connector** and a **2.54" 2 pin header** for connecting 3W speakers.
@@ -24,7 +24,7 @@ This github provides getting started instructions with Walkie-Talkie Breakout.
 	- 3W Speaker Output at 2.54” standard Header and 2mm JST 
 	- Standard 3.5mm TRS Headphone Jack
 - **Walkie-Talkie Module :**
-	- **Frequency Range** => 400 ~ 480MHz
+	- **Frequency Range** => 400 ~ 470MHz
 	- **Communication Distance** => around 1 km in Open area
 	- **Current Consumption** => Rx around 60 mA and for Tx around 750 mA
 	- **Operating Temperature Range** => -20°C ~ +70 °C
@@ -34,32 +34,24 @@ This github provides getting started instructions with Walkie-Talkie Breakout.
 <img src="https://github.com/sbcshop/Walkie_Talkie_Breakout_Software/blob/main/images/walkie-talkie%20pinout.png">
 
 
-- **<ins>Walkie-Talkie Module</ins>**: SA818S-CE walkie-talkie module with configurable frequency 400-480MHz and wattage between 0.5W and 1W to support license free usage in most of regions. 
+- **<ins>Walkie-Talkie Module</ins>**: SA818S-CE walkie-talkie module for audio communications over long distance.
+- **<ins>Control Switch/Buttons<ins>** : Onboard there are three control switch,
+   - **(2) PD Slide Switch** : Use to switch ON/OFF module power. On **+ve** side module is **ON** and **-ve** side module is **OFF**.
+   - **(14) PWR Slide Switch** : Use to set **Wattage** of walkie-talkie transmission between 0.5W and 1W power. Slide switch on **H side** for **1W** and on **L side** for **0.5W**. 
+   - **(4) Push-To-Talk** : Push switch when pressed walkie-talkie is in audio transmission mode, so talk to send audio. When release it is in reception mode to listen incoming audio from other walkie-talkie.
 
-<!--
-- **<ins>Buttons<ins>** : Onboard there are four buttons,
-   - **Power/Play/Pause** :
-     - To power ON bluetooth module, play and pause songs when playing song on bluetooth mode.
-     - Long Press and hold switch till PAIR LED starts blinking. This confirms module is ON and searching for device to pair with. Once device paired then PAIR LED stops blinking and stays Active.
-   - **Vol+/Next** : Simple press and release for Volume increase while Long press for next song play
-   - **Vol-/BACK** : Simple press and release for Volume decrease while Long press for back.
-   - **RESET** : This entirely reset the module for reconnection.
-   - **Mode Switch Button**: Push and closed switch to select Aux Mode. Release switch to move breakout in Bluetooth mode for wireless listening.
-     
-- **<ins>Mic</ins>**: Microphone for bluetooth calling or voice related operation.
-- **<ins>Type C Interface</ins>**: Type C interface for power and USB to UART Bluetooth module access. 
-- **<ins>External Power</ins>**: Additional External power source option to connect battery in case type C not connected. Max allowed voltage is 4.2V.
-- **<ins>AUX IN</ins>**: For audio input using 3.5mm Standard Jack Aux cable. Rquired 3 Pole TRS Aux pin connector for Compatibility.
-- **<ins>AUX OUT</ins>**: For audio output for standard 3.5mm Audio Jack. Rquired 3 Pole TRS Aux pin connector for Compatibility.
-- **<ins>Speaker Connector</ins>**: Two options available to connect speakers (1) 2.54" four pin header and (2) 2mm JST right and left connector
--->
+- **<ins>Type C Interface</ins>**: Type C interface for power and USB to UART access of walkie-talkie for configuration. 
+- **<ins>External Power</ins>**: Additional power source option as 2mm JST to connect 3.7V lithium ion battery for portable use. Onboard charging facility available.
+- **<ins>Audio Output</ins>**: Three options to listen incoming audio,
+  - Use 2mm JST connector or 2.54" standard header to connect 2W or 3W speaker. Checkout below for compatible speaker options.
+  - For private listening use 3.5mm Audio Jack. Rquired 3 Pole TRS Aux pin connector for Compatibility.
 
 #### Compatible speakers available Here:
 * [2W 6 Ohm Mono Enclosed Speaker](https://shop.sb-components.co.uk/products/2-watt-6-ohm-mini-portable-speaker-for-small-electronic-projects-2pcs)
 * [3 Watt 8 Ohm Mini Speaker](https://shop.sb-components.co.uk/products/3-watt-8-ohm-mini-speaker-full-range-portable-for-small-electronic-projects)
   
 ## Configuration and Setting with UART via XCTU/Terminal Software
-- Connect Walkie-Talkie breakout to PC/laptop using Type C interface,
+- Connect Walkie-Talkie breakout to PC/laptop using Type C interface and make sure Jumper selection is placed as shown to access walkie-talkie module for configuration.
 - Now you will see device listed with COM port you can checkout in device manager, If not listed meaning CH340 driver missing. To install driver check out [CH340 Driver Installation Manual Guide](https://github.com/sbcshop/NFC_Module/blob/main/documents/CH340%20Driver%20installation%20steps.pdf).
   
   <img src="https://github.com/sbcshop/L76_GPS_Breakout_Software/blob/main/images/device_manager_comport.jpg" width="583" height="426">
