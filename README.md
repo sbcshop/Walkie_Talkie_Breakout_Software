@@ -92,8 +92,8 @@ This github provides getting started instructions with Walkie-Talkie Breakout.
   - Parameter Description:
     ```
     GBW: bandwidth setting (0: 12.5K 1: 25K)
-    TFV: Transmit frequency value (134.0000M～174.0000M,400.0000M～470.0000M)
-    RFV: Receiving frequency value (134.0000M～174.0000M,400.0000M～470.0000M)
+    TFV: Transmit frequency value (400.0000MHz～470.0000MHz)
+    RFV: Receiving frequency value (400.0000MHz～470.0000MHz)
     Tx_CXCSS: Transmit CXCSS value
     SQ: Squelch level (0～8) (0: monitor mode, scan mode cannot be used 0)
     Rx_CXCSS: Receive CXCSS value
