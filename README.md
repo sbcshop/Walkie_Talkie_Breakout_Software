@@ -83,12 +83,14 @@ This github provides getting started instructions with Walkie-Talkie Breakout.
 
   <img src="https://github.com/sbcshop/Walkie_Talkie_Breakout_Software/blob/main/images/at_cmd_response_frequency.jpg" width="612" height="442">
   
-- To change default operating frequency you can use DMOSETGROUP command,
+- By default you may receive Walkie-Talkie with UK 446.0812MHz frequency configured, but you can change this as per your region. To change default operating frequency you can use DMOSETGROUP command,
   - Format: AT+DMOSETGROUP=GBW, TFV, RFV, Tx_CXCSS, SQ, Rx_CXCSS
     ```
-    Example 1: AT+DMOSETGROUP=0,415.1250,415.1250,0012,4,0013
-    Example 2: AT+DMOSETGROUP=0,415.1250,415.1250,754N,4,445I
+    Example 1: AT+DMOSETGROUP=0,446.0812,446.0812,0000,1,0000
+    Example 2: AT+DMOSETGROUP=0,415.1250,415.1250,0012,4,0013
+    Example 3: AT+DMOSETGROUP=0,415.1250,415.1250,754N,4,445I
     ```
+    
   - Parameter Description:
     ```
     GBW: bandwidth setting (0: 12.5K 1: 25K)
