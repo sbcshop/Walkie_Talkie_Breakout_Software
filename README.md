@@ -77,7 +77,7 @@ This github provides getting started instructions with Walkie-Talkie Breakout.
 
   <img src="https://github.com/sbcshop/Walkie_Talkie_Breakout_Software/blob/main/images/at_cmd_response.jpg" width="612" height="442">
 
-- Similarly you can add more AT Commands for easy configuration and save as XML for future reference,
+- Similarly you can add more AT Commands for easy configuration and save as XML for future reference. Sample XML available [here](https://github.com/sbcshop/Walkie_Talkie_Breakout_Software/blob/main/documents/walkie_talkie_testing_setup.xml),
 
   <img src="https://github.com/sbcshop/Walkie_Talkie_Breakout_Software/blob/main/images/at_cmd_response2.jpg" width="612" height="442">
 
